@@ -1,0 +1,32 @@
+.contain_section h1{
+    font-size: small;
+    font-weight: 300;
+}
+.contain_section p{
+    font-size: medium;
+    font-weight: 400;
+}
+.contain_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+    height: 200px;
+    width: 700px;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+
+}
+.body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.contain_section h1{
+    font-size: 80px;
+    font-weight: 700;
+}

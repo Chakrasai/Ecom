@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+#logoe{
+    font-size: 50px;
+    color: tomato;
+
+}
+#logom{
+    font-size: 50px;
+    color: blueviolet;
+}
+#dot{
+    font-size: 50px;
+    color: green;
+
+}
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100; /* Ensure the nav stays above other content */
+}
+
+.mandi-brandlogo {
+    width: 100px;
+    height: 100px;
+    /* background-image: url('https://i.postimg.cc/TYYk4272/Screenshot-2024-06-12-121209.png');
+    background-size: contain; */
+    margin-top: 20px;
+}
+
+.landing-container {
+    padding-top: 100px;
+    background-image: url(https://i.postimg.cc/MK507RnX/land2.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: calc(100vh - 100px); 
+    width: 100vw;
+    height: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.lbuttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #000000;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background: #f3f2f2;
+    color: rgb(1, 1, 0);
+    border: 5px solid #d9ff00;
+}
+
+.box-content {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.scontentbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 300px;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #000000c2;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.scontentbox span {
+    font-size: 3rem;
+    color: rgb(16, 20, 231);
+}
