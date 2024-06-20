@@ -8,7 +8,7 @@ import LoginSignup from './LoginSignup';
 // import { useNavigate } from 'react-router-dom';
 
 function Landing() {
-  // const navigate = useNavigate();
+// const navigate = useNavigate();
   const [currentPage, setCurrentPage] = useState('home');
 
   const renderContent = () => {
