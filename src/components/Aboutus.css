@@ -6,7 +6,16 @@ body {
   color: hsl(210, 29%, 24%);
   background-size: cover;
 }
-
+header{
+  height: 100px;
+  background: #f4f4f4;
+}
+.back-to-home {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
 .about-us-container {
   background: rgba(255, 255, 255, 0.9);
   width: 1200px;

@@ -1,8 +1,10 @@
 import React from 'react';
 import './Aboutus.css';
+import { setCurrentPage } from './Landing';
 
 function AboutUs() {
   return (
+    
     <div className="about-us-container">
       <header className="about-header">
         <h1>About Us</h1>

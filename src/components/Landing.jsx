@@ -78,7 +78,7 @@ function Landing() {
     <div className="landing-page">
       {currentPage !== 'home' && (
         <nav className="back-to-home">
-          {/* <div className='mandi-brandlogo'><span id='logoe'>E</span><span id='dot'>.</span><span id='logom'>MANDI</span></div> */}
+          <div className='mandi-brandlogo'><span id='logoe'>E</span><span id='dot'>.</span><span id='logom'>MANDI</span></div>
           <button onClick={() => setCurrentPage('home')}>Go Back to Home</button>
         </nav>
       )}
